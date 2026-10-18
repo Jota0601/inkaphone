@@ -1,0 +1,151 @@
+/*ïnicio de los estilos*/
+
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(21, 22, 22);
+    color: black;
+    position: sticky;  /*emcabezado se mantenga arriba*/
+     top: 0;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 20px;
+
+
+
+}
+header nav a{
+    margin-left: 120px; /*separacion*/
+    color: white;
+    text-decoration: none; /*quitando el subrayado por defecto*/
+    font-weight: bold; /*letra en negrita*/
+}
+header nav a:hover{
+    background-color: #45b669;
+    color: black;
+    border-radius: 8px;
+}
+
+.lag{
+    background-color:#fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 50px;
+
+}
+.icon{
+    flex: 1;
+    text-align: center;
+  animation: girar 3s linear infinite; 
+}
+
+@keyframes girar {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+.carro{
+    padding: 50px 50px;
+    cursor: pointer;
+}
+
+
+/* fin de logo y header*/
+/* inicio cards*/
+
+.cards{
+    display: flex;
+    background-color: #fff;
+    gap: 15px;
+    justify-content: space-between;
+}
+.card{
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 12px;
+}
+.desplegable{
+    border: 1px solid black;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+.desplegable summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+.contenido{
+    border-top: 1px solid black;
+}
+.contenido  ul{
+    list-style: circle;
+
+}
+
+.comprar{
+    border: 1px solid black;
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.comprar:hover{
+    cursor: pointer;
+    background-color: coral;
+
+}
+
+.texto{
+    font-weight: bold;
+}
+
+/* fin cards*/
+
+/* barra inferior**/
+.barra{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+/* fin barra inferior**/
+
+/* NOSOTROSs*/
+.nosotros{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.nos{
+    flex: 1;
+    text-align: center;
+}
+
+.copy {
+  color: #000100;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* fin NOSOTROSs*/
+

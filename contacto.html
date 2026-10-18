@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iNKAphone - Servicio Técnico</title>
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="../promo/css/contacto.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../gerson/images/logo.png" alt="iNKAphone Logo" class="logo">
+        </div>
+    </header>
+
+      <!-- NAV -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../image/inicio.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="../promo/promociones.html">PROMOCIONES</a>
+                </li>
+                <li>
+                    <a href="../gerson/serviciotecnico.html">SERVICIO TECNICO</a>
+                </li>
+                <li>
+                    <a href="../promo/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+  <div class="container">
+    <div class="mensaje">
+      Formulario de Atención al Cliente:
+    </div>
+
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Número de teléfono</label>
+      <div class="telefono-contenedor">
+        <select id="codigo" name="codigo">
+          <option value="+51">+51</option>
+          <option value="+34">+34</option>
+          <option value="+52">+52</option>
+        </select>
+        <input type="text" id="telefono" name="telefono" placeholder="Número" required>
+      </div>
+
+      <label for="mensaje">detalles de la consulta</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu Consulta..."></textarea>
+
+      <button type="reset">Enviar Consulta</button>
+    </form>
+  </div>
+</body>
+<footer>
+        <div class="footer-top">
+          <h3>Apple Partner Oficial</h3>
+        </div>
+        <div class="footer-bottom">
+          <div class="nosotros">
+            <h4>Sobre nosotros</h4>
+            <p>Somos una microempresa dedicada a la venta y reparación de productos Apple, reconocidos por ofrecer productos de alta calidad.</p>
+            <br>
+            <p class="copy">© 2026 iNKAphone. Todos los derechos reservados</p>
+          </div>
+          <div class="reclamaciones">
+            <div class="social">
+            <a class="bi bi-facebook social-icon" data-url="https://www.facebook.com/"></a>
+            <a class="bi bi-instagram social-icon" data-url="https://www.instagram.com/"></a>
+            <a class="bi bi-tiktok social-icon" data-url="https://www.tiktok.com/"></a>
+            </div>
+            <a href="../gerson/librodereclamaciones.html" class="libro">Libro de Reclamaciones</a>
+            <a href="../gerson/librodereclamaciones.html"><img src="../gerson/images/libro_reclamaciones.png" alt="Libro de Reclamaciones"></a>
+          </div>
+        </div>
+      </footer>
+</html>
+<script src="../JS/Movimiento.js"></script>
+<script src="../JS/Redes.js"></script>

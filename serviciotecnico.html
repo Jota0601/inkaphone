@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iNKAphone - Servicio Técnico</title>
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="../gerson/css/style-serviciotecnico.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+       <header>
+            <div class="logo-container">
+            <img src="../gerson/images/logo.png" alt="iNKAphone Logo" class="logo">
+            </div>
+              <div class="search-cart-container">
+                <div class="search-box">
+                  <input type="text" class="search-input" placeholder="Buscar productos o servicios...">
+                  <button class="search-btn"><i class="bi bi-search"></i></button>
+                </div>
+              </div>
+              <div class="cart-container">
+                <a href="../image/carro_compras.html"><img src="images/carrito.png" alt="Carrito de compras" class="cart-icon"></a>
+              </div>
+       </header>
+
+      <!-- NAV -->
+        <nav>
+          <ul>
+              <li>
+                    <a href="../image/inicio.html" >INICIO</a>
+              </li>
+              <li>
+                  <a href="../promo/promociones.html" >PROMOCIONES</a>
+              </li>
+              <li>
+                  <a href="serviciotecnico.html" >SERVICIO TECNICO</a>
+              </li>
+              <li>
+                  <a href="../promo/contacto.html" >CONTACTO</a>
+              </li>
+          </ul>
+        </nav>
+
+      <!-- BANNER -->
+        <section class="banner">
+  <div class="carousel">
+
+    <div class="slide active">
+      <img src="../gerson/images/banner1.png">
+    </div>
+
+    <div class="slide">
+      <img src="../gerson/images/banner2.png">
+    </div>
+
+    <div class="slide">
+      <img src="../gerson/images/banner3.png">
+    </div>
+
+    <div class="slide">
+      <img src="../gerson/images/banner4.png">
+    </div>
+
+    <div class="slide">
+      <img src="../gerson/images/banner5.png">
+    </div>
+
+    <div class="slide">
+      <img src="../gerson/images/banner.png">
+    </div>
+
+    <div class="indicadores">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </div>
+</section>
+
+      <!-- MAIN -->
+        <main class="container-categorias">
+        <!-- CATEGORÍAS -->
+            <aside class="categorias">
+                <h3>CATEGORÍAS</h3>
+                    <ol>
+                      <a href="baterias.html"><li>BATERÍAS</li></a>
+                      <a href="pantallas.html"><li>PANTALLAS</li></a>
+                      <a href="serviciotecnico.html"><li>FAST SERVICE - A 1 CLICK</li></a>
+                    </ol>
+            </aside>
+
+        <!-- PRODUCTOS -->
+            <section class="productos">
+                <div class="columna">
+                  <h3>iPhone</h3>
+                    <div class="card">
+                      <a href="baterias.html"><h4>Baterías</h4>
+                          <p>Premium Cell</p>
+                          <p>Autoprogramable</p></a>
+                    </div>
+                    <div class="card">
+                        <a href="pantallas.html"><h4>Pantallas</h4>
+                        <p>Oled GX</p>
+                        <p>Original 100%</p></a>
+                    </div>
+                </div>
+
+                <div class="columna">
+                    <h3>MacBook</h3>
+                        <div class="card">
+                            <a href="baterias.html"><h4>Baterías</h4></a>
+                        </div>
+                        <div class="card">
+                            <a href="pantallas.html"><h4>Pantallas</h4></a>
+                        </div>
+                        <div class="card">
+                            <a href="pantallas.html"><h4>Top Case</h4></a>
+                        </div>
+                </div>
+            </section>
+
+        <!-- FAST SERVICE -->
+              <section class="fast-service">
+                <h2>⚡ FAST SERVICE</h2>
+                <p class="subtitle">Soluciones rápidas en 1 clic</p>
+
+                <input type="text" id="buscador" placeholder="Describe tu problema..." />
+
+                <div class="faq">
+                    <button class="faq-btn" data-id="1">📱 iPhone mojado</button>
+                    <button class="faq-btn" data-id="2">💻 Mac no enciende</button>
+                    <button class="faq-btn" data-id="3">🐢 Equipo lento</button>
+                    <button class="faq-btn" data-id="4">🔋 No carga</button>
+                </div>
+
+                <div id="respuesta" class="respuesta-box">
+                Selecciona un problema o escribe arriba 👆
+                </div>
+            </section>
+        </main>
+
+      <!-- FOOTER -->
+         <footer>
+        <div class="footer-top">
+          <h3>Apple Partner Oficial</h3>
+        </div>
+        <div class="footer-bottom">
+          <div class="nosotros">
+            <h4>Sobre nosotros</h4>
+            <p>Somos una microempresa dedicada a la venta y reparación de productos Apple, reconocidos por ofrecer productos de alta calidad.</p>
+            <br>
+            <p class="copy">© 2026 iNKAphone. Todos los derechos reservados</p>
+          </div>
+          <div class="reclamaciones">
+            <div class="social">
+            <a class="bi bi-facebook social-icon" data-url="https://www.facebook.com/"></a>
+            <a class="bi bi-instagram social-icon" data-url="https://www.instagram.com/"></a>
+            <a class="bi bi-tiktok social-icon" data-url="https://www.tiktok.com/"></a>
+            </div>
+            <a href="../gerson/librodereclamaciones.html" class="libro">Libro de Reclamaciones</a>
+            <a href="../gerson/librodereclamaciones.html"><img src="../gerson/images/libro_reclamaciones.png" alt="Libro de Reclamaciones"></a>
+          </div>
+        </div>
+      </footer>
+      <a href="https://wa.me/51907697749" class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </body>
+</html>
+<script src="../JS/Movimiento.js"></script>
+<script src="../JS/FastService.js"></script>
+<script src="../JS/Redes.js"></script>
+<script src="../JS/Carrusel.js"></script>
